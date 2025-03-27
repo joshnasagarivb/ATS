@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+      
+          body{
+              margin-bottom: 90px;
+              margin-left: 690px;
+          }
+          #num{
+              font-size: 50px;
+              margin-left: 60px;
+          }
+    </style>
+    <script>
+          function numinc(){
+              const numeleref=document.getElementById("num");
+              const A=Number(numeleref.innerHTML)+1;
+                      numeleref.innerHTML=A;
+          }
+          function numdec(){
+              const numeleref=document.getElementById("num");
+              const A=Number(numeleref.innerHTML)-1;
+                      numeleref.innerHTML=A;
+
+          }
+          function reset(){
+              const numeleref=document.getElementById("num");
+              const A=Number(numeleref.innerHTML)*0;
+                      numeleref.innerHTML=A;
+          }
+        </script>
+</head>
+<body>
+    <h1 id="hii">Count App</h1>
+    <div id="num">
+        0
+    </div>
+    <div class="helo">
+        <button onclick="numinc()"> 
+            increase    
+        </button>
+        <button onclick="reset()">
+            reset
+        </button>
+    <button onclick="numdec()">
+        decrease
+    </button>
+
+    </div>
+</body>
+</html>
