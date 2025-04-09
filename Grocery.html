@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FreshGro Market</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #2ecc71;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #27ae60;
+      padding: 10px 0;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://i.pinimg.com/736x/45/48/60/45486012c45e8bd1a1b1037745ce205f.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .hero a {
+      background-color: #ffffff;
+      color: #2ecc71;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .featured-products {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .featured-products h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .product-card img {
+      max-width: 100%;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .product-card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .product-card p {
+      margin: 5px 0 15px;
+      font-weight: bold;
+    }
+
+    .product-card button {
+      background-color: #2ecc71;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2ecc71;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>FreshGro Market</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Deals</a>
+    <a href="#">Cart</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Fresh Groceries Delivered to Your Doorstep</h1>
+    <p>Buy fresh fruits, vegetables, and everyday essentials online.</p>
+    <a href="#">Shop Now</a>
+  </section>
+
+  <section class="featured-products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://5.imimg.com/data5/AK/RA/MY-68428614/apple.jpg" alt="Fresh Apples">
+        <h3>Fresh Apples</h3>
+        <p>$3.99 / lb</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://parade.com/.image/t_share/MjEwNTIwNDI3NDQ3OTg2MDAx/bananas.jpg" alt="Organic Bananas">
+        <h3>Organic Bananas</h3>
+        <p>$1.29 / lb</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://shop.healthyoptions.com.ph/cdn/shop/products/041570068274_01.jpg?v=1625636456" alt="Almond Milk">
+        <h3>Almond Milk</h3>
+        <p>$2.99</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://farmer-bazaar-static.s3.amazonaws.com/media/product_picture/2023/08/05/IMG_1000066210_970545.jpg" alt="Fresh Panner">
+        <h3>Fresh Panner</h3>
+        <p>$4.50</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://5.imimg.com/data5/JB/JY/MY-5825651/spinach_-500x500.jpg" alt="Fresh Spinach">
+        <h3>Fresh Spinach</h3>
+        <p>$1.99 / bunch</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://curlygirlkitchen.com/wp-content/uploads/2023/05/Seedy-Whole-Wheat-Honey-Sandwich-Bread-High-Altitude-020.jpg" alt="Whole Wheat Bread">
+        <h3>Whole Wheat Bread</h3>
+        <p>$2.50</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5VQp93jrZjqGDH57UinNa4wzSMk35xXu7lw&s" alt="Greek Yogurt">
+        <h3>Greek Yogurt</h3>
+        <p>$1.50</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://elisetriestocook.com/wp-content/uploads/2023/10/freshly-squeezed-orange-juice-featured-image-500x500.jpg" alt="Orange Juice">
+        <h3>Orange Juice</h3>
+        <p>$3.25</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 FreshGro Market. All rights reserved.
+  </footer>
+
+</body>
+</html>
