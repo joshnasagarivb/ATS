@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - FreshGro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>FreshGro</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="deals.html">Deals</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="featured-products">
+        <h3>All Products</h3>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg" alt="Tomatoes">
+                <h4>Tomatoes</h4>
+                <p>$1.49 / lb</p>
+                <button onclick="addtocart()">Add to Cart</button>
+                <p id="addtocart"></p>
+                <script>
+                    function addtocart() {
+                        document.getElementById("addtocart").textContent = "Added to Cart Sucessfully.";  
+                    }
+                </script>
+            </div>
+            <div class="product">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Broccoli_and_cross_section_edit.jpg" alt="Broccoli">
+                <h4>Broccoli</h4>
+                <p>$1.89 / lb</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://elisetriestocook.com/wp-content/uploads/2023/10/freshly-squeezed-orange-juice-featured-image-500x500.jpg" alt="Orange Juice">
+                <h4>Orange Juice</h4>
+                <p>$3.25</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://cheesemaking.com/cdn/shop/files/cheddar-cheese-making-recipe.jpg?v=1743632339" alt="Cheddar Cheese">
+                <h4>Cheddar Cheese</h4>
+                <p>$4.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://farmer-bazaar-static.s3.amazonaws.com/media/product_picture/2023/08/05/IMG_1000066210_970545.jpg" alt="Fresh Paneer">
+                <h4>Fresh Paneer</h4>
+                <p>$4.50</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://shop.healthyoptions.com.ph/cdn/shop/products/041570068274_01.jpg?v=1625636456" alt="Almond Milk">
+                <h4>Almond Milk</h4>
+                <p>$2.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://parade.com/.image/t_share/MjEwNTIwNDI3NDQ3OTg2MDAx/bananas.jpg" alt="Organic Bananas">
+                <h4>Organic Bananas</h4>
+                <p>$1.29 / lb</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://curlygirlkitchen.com/wp-content/uploads/2023/05/Seedy-Whole-Wheat-Honey-Sandwich-Bread-High-Altitude-020.jpg" alt="Whole Wheat Bread">
+                <h4>Whole Wheat Bread</h4>
+                <p>$2.49</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://5.imimg.com/data5/AK/RA/MY-68428614/apple.jpg" alt="Fresh Apples">
+                <h4>Fresh Apples</h4>
+                <p>$3.99 / lb</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://5.imimg.com/data5/JB/JY/MY-5825651/spinach_-500x500.jpg" alt="Fresh Spinach">
+                <h4>Fresh Spinach</h4>
+                <p>$1.89 / bunch</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5VQp93jrZjqGDH57UinNa4wzSMk35xXu7lw&s" alt="Greek Yogurt">
+                <h4>Greek Yogurt</h4>
+                <p>$1.50</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://farmerscraft.in/cdn/shop/files/alphonso-mango-stock-image-1-1024x686-2_c387efd4-6055-46c8-81ca-9f41d54fd1fc.jpg?v=1739248444" alt="Alphanso Mango">
+                <h4>Alphanso Mango</h4>
+                <p>$2.99 / lb</p>
+                <button>Add to Cart</button>
+            </div>  
+            <div class="product">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mozzarella_di_bufala3.jpg/800px-Mozzarella_di_bufala3.jpg" alt="Mozzarella Cheese">
+                <h4>Mozzarella Cheese</h4>
+                <p>$4.50</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/71ob4ifemQL.jpg" alt="Fresh Cucumber">
+                <h4>Fresh Cucumber</h4>
+                <p>$1.49 / lb</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2022/10/JY/SK/TN/161422039/fresh-carrots-fresh-red-carrot-for-sale-1513637912-3529401.jpeg" alt="Fresh Carrots">
+                <h4>Fresh Carrots</h4>
+                <p>$0.99 / lb</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/517B2H5AaKL._AC_UF350,350_QL80_.jpg" alt="Fresh Lettuce">
+                <h4>Fresh Lettuce</h4>
+                <p>$1.29 / head</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg" alt="Fresh Potatoes">
+                <h4>Fresh Potatoes</h4>
+                <p>$0.79 / lb</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvcuW-RfQeYTbaAz_K8jbyjfaedVN0ai0M1Q&s" alt="Fresh Onions">
+                <h4>Fresh Onions</h4>
+                <p>$0.89 / lb</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/71vpJSiNYeL._AC_UF1000,1000_QL80_.jpg" alt="Fresh Garlic">
+                <h4>Fresh Garlic</h4>
+                <p>$2.99 / lb</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://www.jiomart.com/images/product/original/590003175/ginger-200-g-product-images-o590003175-p590003175-1-202410011749.jpg?im=Resize=(1000,1000)" alt="Fresh Ginger">
+                <h4>Fresh Ginger</h4>
+                <p>$3.99 / lb</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://healthyfamilyproject.com/wp-content/uploads/2020/05/Bell-Peppers-background.jpg" alt="Fresh Bell Peppers">
+                <h4>Fresh Bell Peppers</h4>
+                <p>$2.49 / lb</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://media.webdunia.com/_media/te/img/article/2017-09/14/full/1505396945-193.jpg" alt="Fresh Strawberries">
+                <h4>Fresh Strawberries</h4>
+                <p>$3.99 / lb</p>
+                <button>Add to Cart</button>
+            </div>  
+            <div class="product">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg/1200px-Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg" alt="Water Melon">
+                <h4>Water Melon</h4>
+                <p>$3.99 / lb</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://www.bigbasket.com/media/uploads/p/xl/10000141_26-fresho-muskmelon-netted-small.jpg" alt="Musk Melon">
+                <h4>Musk Melon</h4>
+                <p>$4.99 / lb</p>
+                <button  >Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 FreshGro. All rights reserved.</p>
+    </footer>
+</body>
+</html>
